@@ -29,9 +29,7 @@ regressor = DecisionTreeRegressor(random_state=0)
 
 
 
-# fit the regressor with X and Y data
 regressor.fit(X_train, y_train)
-# print(regressor.feature_importances_)
 pred_train = regressor.predict(X_train)
 mse_train = mean_squared_error(pred_train, y_train)
 print("Train MSE: ", mse_train)
@@ -41,7 +39,7 @@ mse_test = mean_squared_error(pred_test, y_test)
 print("Test MSE: ", mse_test)
 
 reg_score = regressor.score(X_test, y_test)
-print('sklearn多层感知器-回归模型得分', reg_score)#预测正确/总数
+print('R-Squared Score', reg_score)
 
 xx = range(0, len(y_train))
 plt.figure(figsize=(8, 6))

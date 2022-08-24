@@ -22,8 +22,6 @@ with open(input_path, mode='r') as file:
 c = np.array(MHZ_count)
 s = np.array(seven_zip)
 
-# x,y = make_regression(n_samples=20, n_features=1, noise=10)
-
 X_train = c
 Y_train = s
 

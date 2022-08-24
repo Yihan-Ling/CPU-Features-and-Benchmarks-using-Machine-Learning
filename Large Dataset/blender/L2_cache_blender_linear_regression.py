@@ -21,8 +21,6 @@ with open(input_path, mode='r') as file:
 c = np.array(L2_count)
 s = np.array(blender)
 
-# x,y = make_regression(n_samples=20, n_features=1, noise=10)
-
 X_train = c
 Y_train = s
 

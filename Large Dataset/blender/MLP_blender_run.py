@@ -24,13 +24,7 @@ y = df_raw['Blender'].values
 X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.2)
 print(X_train.shape, y_train.shape)
 print(X_test.shape, y_test.shape)
-# # alpha:L2的参数：MLP是可以支持正则化的，默认为L2，具体参数需要调整
-# # hidden_layer_sizes=(5, 2) hidden层2层,第一层5个神经元，第二层2个神经元)，2层隐藏层，也就有3层神经网络
-# #clf = MLPRegressor(solver='lbfgs', alpha=1e-5,hidden_layer_sizes=(5, 2), random_state=1)
-# #'identity'，无操作**，对实现线性瓶颈很有用，返回f（x）= x
-# #'logistic'，logistic sigmoid函数，返回f（x）= 1 /（1 + exp（-x））。
-# #'tanh'，双曲tan函数，返回f（x）= tanh（x）。
-# #'relu'，整流后的线性单位函数，返回f（x）= max（0，x）
+
 model_mlp = MLPRegressor(
     hidden_layer_sizes=(64, 16, 4),  activation='relu', solver='adam', alpha=0.0001, batch_size='auto',
     learning_rate='constant', learning_rate_init=0.001, power_t=0.5, max_iter=50000, shuffle=True,
@@ -47,7 +41,7 @@ mse_test = mean_squared_error(pred_test, y_test)
 print("Test MSE: ", mse_test)
 
 mlp_score = model_mlp.score(X_test, y_test)
-print('sklearn多层感知器-回归模型得分', mlp_score)#预测正确/总数
+print('R-Squared Score', mlp_score)
 
 xx = range(0, len(y_train))
 plt.figure(figsize=(8, 6))
