@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c11dc6a-4120-4ba0-9ccd-dab2cf29804c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/7-zip/7zip.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/7-zip/L2_cache_zip_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/7-zip/L2_cache_zip_linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/7-zip/L2_cache_zip_poly_regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/7-zip/L3_cache_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/7-zip/L3_cache_linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/7-zip/MLP_zip_rating.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/7-zip/MLP_zip_rating.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/7-zip/MLP_zip_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/7-zip/MLP_zip_run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/7-zip/TDP_zip_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/7-zip/TDP_zip_linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/7-zip/core_zip_linear_regession.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/7-zip/core_zip_linear_regession.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/7-zip/core_zip_poly_regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/7-zip/data/7-zip Dataset.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/7-zip/decision_tree_zip_rating.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/7-zip/decision_tree_zip_rating.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/7-zip/decision_tree_zip_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/7-zip/decision_tree_zip_run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/7-zip/frequency_zip_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/7-zip/frequency_zip_linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/7-zip/process_zip_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/7-zip/process_zip_linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/7-zip/thread_zip_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/7-zip/thread_zip_linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/7-zip/thread_zip_poly_regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/7-zip/turbo_zip_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/7-zip/turbo_zip_linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/7zip.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/L2_cache_blender_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/blender/L2_cache_blender_linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/L2_cache_zip_poly_regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/L3_cache_blender_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/blender/L3_cache_blender_linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/MLP_blender_rating.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/blender/MLP_blender_rating.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/MLP_blender_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/blender/MLP_blender_run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/TDP_zip_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/blender/TDP_zip_linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/core_blender_linear_regession.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/blender/core_blender_linear_regession.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/core_zip_poly_regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/data/Blender Dataset.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/data/Blender Dataset_out.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/data/blender results.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/blender/data/blender results.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/decision_tree_blender_rating.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/blender/decision_tree_blender_rating.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/decision_tree_blender_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/blender/decision_tree_blender_run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/frequency_blender_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/blender/frequency_blender_linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/process_blender_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/blender/process_blender_linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/thread_blender_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/blender/thread_blender_linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/thread_zip_poly_regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Large Dataset/blender/turbo_blender_linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Large Dataset/blender/turbo_blender_linear_regression.py" afterDir="false" />
-    </list>
+    <list default="true" id="9c11dc6a-4120-4ba0-9ccd-dab2cf29804c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
